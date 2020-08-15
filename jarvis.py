@@ -41,7 +41,7 @@ def alexis_speak(audio_string):
 
 def respond(voice_data):
     if 'what is your name' in voice_data:
-        alexis_speak('my name is Sunny Leone')
+        alexis_speak('my name is Fiona')
     if 'what time is it' in voice_data:
         alexis_speak(ctime())
     if 'who is the richest person' in voice_data:
